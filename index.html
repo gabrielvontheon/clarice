@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bordados de Clarice Alano. Conheça as toalhas personalizadas, naninhas e babadores e converse pelo WhatsApp para encomendar.">
+  <meta name="theme-color" content="#faf6ef">
+  <title>Clarice Alano | Bordados em ponto cruz</title>
+  <link rel="icon" href="assets/clarice-alano.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="catalogo.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header">
+    <div class="wrap header-content">
+      <a class="brand" href="#inicio">
+        <img src="assets/clarice-alano.png" width="60" height="60" alt="">
+        <span>Clarice Alano<small>Bordados em ponto cruz</small></span>
+      </a>
+      <nav aria-label="Menu principal">
+        <a href="#catalogo">Catálogo</a>
+        <a href="#encomendas">Como encomendar</a>
+      </nav>
+      <a class="button button-outline header-contact" href="https://wa.me/5549988198702" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="inicio" aria-labelledby="titulo">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span aria-hidden="true">✳</span> Bordados em ponto cruz</p>
+          <h1 id="titulo">Bordados para<br> <em>presentear.</em></h1>
+          <p class="intro">Toalhas com nome, naninhas e outras peças bordadas por Clarice Alano. Escolha um modelo e converse com a Clarice sobre os detalhes da sua encomenda.</p>
+          <div class="actions">
+            <a class="button button-primary" href="#catalogo">Ver catálogo</a>
+            <a class="button button-outline" href="https://wa.me/5549988198702?text=Ol%C3%A1%2C%20Clarice%21%20Gostaria%20de%20fazer%20uma%20encomenda." target="_blank" rel="noopener">Falar com a Clarice</a>
+          </div>
+        </div>
+        <figure class="hero-figure">
+          <div class="hero-photo">
+            <img src="assets/toalha-antony.jpg" alt="Toalha verde-clara bordada com o nome Antony e um menino pescando" fetchpriority="high">
+          </div>
+          <figcaption class="hero-caption">Toalha personalizada com nome</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="catalog" id="catalogo" aria-labelledby="catalogo-titulo">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <h2 id="catalogo-titulo">Conheça as peças</h2>
+            <p>Veja os modelos e escolha um para conversar com a Clarice.</p>
+          </div>
+          <div class="filters" role="group" aria-label="Filtrar por tipo de peça" hidden>
+            <button type="button" data-filter="todas" aria-pressed="true">Todas</button>
+            <button type="button" data-filter="toalhas" aria-pressed="false">Toalhas</button>
+            <button type="button" data-filter="naninhas" aria-pressed="false">Naninhas</button>
+            <button type="button" data-filter="babadores" aria-pressed="false">Babadores</button>
+          </div>
+        </div>
+        <p class="sr-only" role="status" id="resultado"></p>
+        <div class="products">
+          <article class="product" data-category="toalhas">
+            <img src="assets/toalha-maria.jpg" alt="Toalha rosa com bordado de Nossa Senhora e o nome Maria" loading="lazy">
+            <div class="product-info"><div><p>Toalhas</p><h3>Toalha Maria</h3></div><a href="https://wa.me/5549988198702?text=Ol%C3%A1%2C%20Clarice%21%20Gostaria%20de%20saber%20mais%20sobre%20a%20Toalha%20Maria." target="_blank" rel="noopener" aria-label="Consultar Toalha Maria pelo WhatsApp">Consultar</a></div>
+          </article>
+          <article class="product" data-category="naninhas">
+            <img src="assets/teresinha.jpg" alt="Boneca de Santa Teresinha com manta branca e rosas" loading="lazy">
+            <div class="product-info"><div><p>Naninhas</p><h3>Naninha Santa Teresinha</h3></div><a href="https://wa.me/5549988198702?text=Ol%C3%A1%2C%20Clarice%21%20Gostaria%20de%20saber%20mais%20sobre%20a%20naninha%20Santa%20Teresinha." target="_blank" rel="noopener" aria-label="Consultar Naninha Santa Teresinha pelo WhatsApp">Consultar</a></div>
+          </article>
+          <article class="product" data-category="toalhas">
+            <img src="assets/toalhas-jose.jpg" alt="Duas toalhas azul-marinho bordadas com o nome José e Nossa Senhora" loading="lazy">
+            <div class="product-info"><div><p>Toalhas</p><h3>Conjunto José</h3></div><a href="https://wa.me/5549988198702?text=Ol%C3%A1%2C%20Clarice%21%20Gostaria%20de%20saber%20mais%20sobre%20o%20Conjunto%20Jos%C3%A9." target="_blank" rel="noopener" aria-label="Consultar Conjunto José pelo WhatsApp">Consultar</a></div>
+          </article>
+          <article class="product" data-category="babadores">
+            <img src="assets/babadores.jpg" alt="Dois babadores brancos de tema odontológico com acabamento rosa" loading="lazy">
+            <div class="product-info"><div><p>Babadores</p><h3>Babadores odontológicos</h3></div><a href="https://wa.me/5549988198702?text=Ol%C3%A1%2C%20Clarice%21%20Gostaria%20de%20saber%20mais%20sobre%20os%20babadores%20odontol%C3%B3gicos." target="_blank" rel="noopener" aria-label="Consultar babadores odontológicos pelo WhatsApp">Consultar</a></div>
+          </article>
+          <article class="product" data-category="toalhas">
+            <img src="assets/toalha-antony.jpg" alt="Toalha verde-clara bordada com o nome Antony e um menino pescando" loading="lazy">
+            <div class="product-info"><div><p>Toalhas</p><h3>Toalha Antony</h3></div><a href="https://wa.me/5549988198702?text=Ol%C3%A1%2C%20Clarice%21%20Gostaria%20de%20saber%20mais%20sobre%20a%20Toalha%20Antony." target="_blank" rel="noopener" aria-label="Consultar Toalha Antony pelo WhatsApp">Consultar</a></div>
+          </article>
+          <article class="product" data-category="toalhas">
+            <img src="assets/toalhas-personalizadas.jpg" alt="Toalhas verde e azul decoradas com iniciais e nomes bordados" loading="lazy">
+            <div class="product-info"><div><p>Toalhas</p><h3>Toalhas com monograma</h3></div><a href="https://wa.me/5549988198702?text=Ol%C3%A1%2C%20Clarice%21%20Gostaria%20de%20saber%20mais%20sobre%20as%20toalhas%20com%20monograma." target="_blank" rel="noopener" aria-label="Consultar toalhas com monograma pelo WhatsApp">Consultar</a></div>
+          </article>
+          <article class="product" data-category="toalhas">
+            <img src="assets/toalha-natal.jpg" alt="Toalha branca com bordado natalino verde e vermelho" loading="lazy">
+            <div class="product-info"><div><p>Toalhas</p><h3>Toalha de Natal</h3></div><a href="https://wa.me/5549988198702?text=Ol%C3%A1%2C%20Clarice%21%20Gostaria%20de%20saber%20mais%20sobre%20a%20toalha%20de%20Natal." target="_blank" rel="noopener" aria-label="Consultar Toalha de Natal pelo WhatsApp">Consultar</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="orders" id="encomendas" aria-labelledby="encomendas-titulo">
+      <div class="wrap order-panel">
+        <div>
+          <h2 id="encomendas-titulo">Como encomendar</h2>
+          <p>Envie pelo WhatsApp o modelo que você gostou e conte como quer a sua peça. Combine as opções de bordado, o valor e o prazo diretamente com a Clarice.</p>
+        </div>
+        <div class="order-contact">
+          <a class="button button-light" href="https://wa.me/5549988198702?text=Ol%C3%A1%2C%20Clarice%21%20Gostaria%20de%20fazer%20uma%20encomenda." target="_blank" rel="noopener">Encomendar pelo WhatsApp</a>
+          <span>+55 (49) 98819-8702</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap site-footer">
+    <a class="brand" href="#inicio">
+      <img src="assets/clarice-alano.png" width="54" height="54" alt="">
+      <span>Clarice Alano<small>Bordados em ponto cruz</small></span>
+    </a>
+    <a href="#catalogo">Ver catálogo</a>
+  </footer>
+</body>
+</html>
+
